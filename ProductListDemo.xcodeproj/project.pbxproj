@@ -13,6 +13,7 @@
 		0D41308C1F316A27001A1DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D41308A1F316A27001A1DAB /* Main.storyboard */; };
 		0D41308E1F316A27001A1DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D41308D1F316A27001A1DAB /* Assets.xcassets */; };
 		0D4130911F316A27001A1DAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D41308F1F316A27001A1DAB /* LaunchScreen.storyboard */; };
+		0D41309A1F31793D001A1DAB /* SearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4130991F31793D001A1DAB /* SearchResultController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0D41308D1F316A27001A1DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D4130901F316A27001A1DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D4130921F316A27001A1DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4130981F31793D001A1DAB /* SearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultController.h; sourceTree = "<group>"; };
+		0D4130991F31793D001A1DAB /* SearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				0D4130851F316A27001A1DAB /* AppDelegate.m */,
 				0D4130871F316A27001A1DAB /* ViewController.h */,
 				0D4130881F316A27001A1DAB /* ViewController.m */,
+				0D4130981F31793D001A1DAB /* SearchResultController.h */,
+				0D4130991F31793D001A1DAB /* SearchResultController.m */,
 				0D41308A1F316A27001A1DAB /* Main.storyboard */,
 				0D41308D1F316A27001A1DAB /* Assets.xcassets */,
 				0D41308F1F316A27001A1DAB /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D41309A1F31793D001A1DAB /* SearchResultController.m in Sources */,
 				0D4130891F316A27001A1DAB /* ViewController.m in Sources */,
 				0D4130861F316A27001A1DAB /* AppDelegate.m in Sources */,
 				0D4130831F316A27001A1DAB /* main.m in Sources */,
@@ -273,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProductListDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hzc.ProductListDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProductListDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hzc.ProductListDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
